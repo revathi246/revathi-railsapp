@@ -1,1 +1,181 @@
-<h1>About us..</h1>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{
+        background-color: #ddd;   
+    }
+    h1,.content{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', serif;    
+}
+.section{
+    width:100%;
+    min-height: 100vh;
+    
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+.content-section{
+    float:left;
+    width: 55%;
+    
+}
+.image-section{
+    float: right;
+    width: 40%;
+   
+    
+}
+.image-section img{
+   width: 100%;
+    height: auto;
+    margin-top: 10px;
+
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+   
+
+}
+
+.content-section .content h3{
+   
+    color: #5d5d5d;
+    margin-right: 300px;
+    font-size: 19px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+
+    
+}
+.content-section .content b{
+    margin-left: 2px;
+    font-size: 20px;
+}
+.content-section .content .button {
+    margin-top: 30px;
+    
+}
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin-left: 10px;
+}
+.content-section .content .button a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+}
+.content-section .social{
+    margin-top: 40px;
+    
+}
+.content-section .social i{
+    color:#0082e6;
+    font-size: 30px;
+    padding: 0px 10px;
+    
+}
+.content-section .social i:hover{
+    color: #3d3d3d;
+    
+}
+@media screen and (max-width:768px){
+    .container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+.content-section{
+    float:none;
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+    .image-section{
+    float:none;
+    width: 100%;
+    
+    }
+    .image-section img{
+        width:100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+     padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+    .content-section .content h3{
+    margin-left: 10px;
+    color: #5d5d5d;
+    font-weight: normal;
+    
+    }
+    
+}
+
+</style>
+</head>
+<body>
+<div class="section">
+    <div class="container">
+        <div class="content-section">
+            <div class="title">
+                 <h1>About Us</h1>
+                 
+            </div> 
+            <div class="content">
+                <b>Meet new people with Friends App</b>
+                <p>The main theme is to Friends-App in anytime,and easily communicate with every one.Friend-App is a place for people who are looking to make new friends! By choosing from over 100 activities and interests, Friender will help you meet people nearby with the goal of creating real friendships! Text messages. To me, sending text messages seems like the easiest approach to maintaining contact with friends in the absence of social media. 
+
+                Remove Friends On Friend App is a productivity app which help you manage your friends on Friend App.Remove Friends For Friend App allows you to find, select & remove/unfriend selected inactive friends quick & easily on Facebook with one click.Go to that profile by typing their profile name into the search bar at the top. Tap Friends. Tap Unfriend, then tap Confirm.</p>
+         
+                <div class="button">
+                     <a href="">Read More</a>
+                </div>
+            </div>
+    <div class="social">
+         <i class="fa fa-facebook "style="font-size:24px"></i>
+         
+         <i class="fa fa-twitter" style="font-size:24px"></i>
+         <i class="fa fa-linkedin" style="font-size:24px"></i>
+         <i class="fa fa-instagram" style="font-size:24px"></i>
+    </div>
+    </div>
+       <div class="image-section">
+            <%= image_tag("logos/friendapp.jpg") %>
+       </div>
+    </div>
+</div>
+    

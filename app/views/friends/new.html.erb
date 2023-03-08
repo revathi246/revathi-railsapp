@@ -1,9 +1,20 @@
-<h1>Add New friend</h1>
+<style>
+  header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  background-image: linear-gradient(to left, #553c9a, #4364f7);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+</style>
+<br>
+<header><h1>Add New friend</h1></header>
 
 <%= render "form", friend: @friend %>
+<style>
 
-<br>
-
-<div>
+</style>
+<div >
   <%= link_to "Back to friends", friends_path,class:"btn btn-secondary" %>
 </div>

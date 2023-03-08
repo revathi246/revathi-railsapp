@@ -1,11 +1,11 @@
-<h2><b>&nbsp;&nbsp;Forgot your password?</b></h2>
+<h2>Forgot your password?</h2>
 
 <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="form-control">
+  <div class="field">
     <%= f.label :email %><br />
-     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
   <div class="actions">
